@@ -1353,7 +1353,21 @@
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Qtum",
     "curve": ["secp256k1"],
+    "path": [null],
+    "path_slip21": ["LEDGER-Wallet policy"]
+  },
+  "qtum_legacy": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Qtum Legacy",
+    "curve": ["secp256k1"],
     "path": ["44'/88'", "49'/88'", "84'/88'", "0'/45342'", "20698'/3053'/12648430'"]
+  },
+  "qtum_testnet": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Qtum Test",
+    "curve": ["secp256k1"],
+    "path": [null],
+    "path_slip21": ["LEDGER-Wallet policy"]
   },
   "quickswap": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
